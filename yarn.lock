@@ -952,27 +952,7 @@
     react-syntax-highlighter "^12.2.1"
     react-use "^14.2.0"
 
-"@backstage/dev-utils@^0.1.1-alpha.12":
-  version "0.1.1-alpha.12"
-  resolved "https://registry.yarnpkg.com/@backstage/dev-utils/-/dev-utils-0.1.1-alpha.12.tgz#43315f4549067a268c3ce7a5d5fd527a69716396"
-  dependencies:
-    "@backstage/cli" "^0.1.1-alpha.12"
-    "@backstage/core" "^0.1.1-alpha.12"
-    "@backstage/test-utils" "^0.1.1-alpha.12"
-    "@backstage/theme" "^0.1.1-alpha.12"
-    "@material-ui/core" "^4.9.1"
-    "@material-ui/icons" "^4.9.1"
-    "@testing-library/jest-dom" "^5.7.0"
-    "@testing-library/react" "^9.3.2"
-    "@testing-library/user-event" "^10.2.4"
-    "@types/react" "^16.9"
-    react "^16.12.0"
-    react-dom "^16.12.0"
-    react-hot-loader "^4.12.21"
-    react-router "^6.0.0-alpha.5"
-    react-router-dom "^6.0.0-alpha.5"
-
-"@backstage/plugin-catalog@^0.1.1-alpha.9":
+"@backstage/plugin-catalog@^0.1.1-alpha.12":
   version "0.1.1-alpha.12"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-0.1.1-alpha.12.tgz#3ee345d295db1375f6720a975f9e46716748b037"
   dependencies:
@@ -4390,12 +4370,6 @@ cross-env@^7.0.0:
   dependencies:
     cross-spawn "^7.0.1"
 
-cross-fetch@^3.0.4:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.0.5.tgz#2739d2981892e7ab488a7ad03b92df2816e03f4c"
-  dependencies:
-    node-fetch "2.6.0"
-
 cross-spawn@7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.1.tgz#0ab56286e0f7c24e153d04cc2aa027e43a9a5d14"
@@ -7432,13 +7406,6 @@ jest-esm-transformer@^1.0.0:
     "@babel/core" "^7.4.4"
     "@babel/plugin-transform-modules-commonjs" "^7.4.4"
 
-jest-fetch-mock@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/jest-fetch-mock/-/jest-fetch-mock-3.0.3.tgz#31749c456ae27b8919d69824f1c2bd85fe0a1f3b"
-  dependencies:
-    cross-fetch "^3.0.4"
-    promise-polyfill "^8.1.3"
-
 jest-get-type@^25.2.6:
   version "25.2.6"
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-25.2.6.tgz#0b0a32fab8908b44d508be81681487dbabb8d877"
@@ -8758,7 +8725,7 @@ node-fetch-npm@^2.0.2:
     json-parse-better-errors "^1.0.0"
     safe-buffer "^5.1.1"
 
-node-fetch@2.6.0, node-fetch@^2.3.0, node-fetch@^2.5.0:
+node-fetch@^2.3.0, node-fetch@^2.5.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
 
@@ -9967,10 +9934,6 @@ progress@^2.0.0:
 promise-inflight@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
-
-promise-polyfill@^8.1.3:
-  version "8.1.3"
-  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-8.1.3.tgz#8c99b3cf53f3a91c68226ffde7bde81d7f904116"
 
 promise-retry@^1.1.1:
   version "1.1.1"
