@@ -5,6 +5,7 @@ metadata:
   description: Artist Lookup
   url: /test.com
   image: yahoo.com
+  tags: [abcd, edfg]
 spec:
   type: service
   lifecycle: experimental
