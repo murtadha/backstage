@@ -1,11 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: murt-test
-  description: Artist Lookup
+  name: murt2-test
+  description: Murt is the artist of our newest lifetime
   url: /test.com
   image: yahoo.com
-  tags: [abcd, edfg]
+  tags: 
+    - abcd
+    - edfg
 spec:
   type: service
   lifecycle: experimental
