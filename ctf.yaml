@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Connectivity Testing Framework
+  description: A testing framework that can be used by Facebook Connectivity and other groups at FB to enable easier and more scalable testing for devices
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user@fb.com
