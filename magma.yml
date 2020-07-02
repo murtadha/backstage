@@ -5,6 +5,10 @@ metadata:
   description: An open-source software platform that gives network operators an open, flexible and extendable mobile core network solution.
   image: https://cdn.worldvectorlogo.com/logos/magma-design-automation.svg
   url: https://github.com/facebookincubator/magma
+  tags:
+    - lte
+    - telecom
+    - orchestration
 spec:
   type: service
   lifecycle: experimental
