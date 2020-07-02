@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Magma
+  description: An open-source software platform that gives network operators an open, flexible and extendable mobile core network solution.
+  image: https://cdn.worldvectorlogo.com/logos/magma-design-automation.svg
+  url: https://github.com/facebookincubator/magma
+spec:
+  type: service
+  lifecycle: experimental
+  owner: fb@user.com
