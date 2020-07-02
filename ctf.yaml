@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Connectivity Testing Framework
+  name: CTF
   description: A testing framework that can be used by Facebook Connectivity and other groups at FB to enable easier and more scalable testing for devices
   url: https://github.com/facebookexternal/CTF/
   image: https://s-twshared11052-06-nao1-facebook-com---8095.silfra.facebook.net/assets/images/loginlogo.png
