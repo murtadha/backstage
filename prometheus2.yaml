@@ -3,12 +3,14 @@ kind: Component
 metadata:
   name: Prometheus
   description: Collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true
-  url: https://github.com/prometheus/prometheus
   image: https://avatars1.githubusercontent.com/u/3380462?s=200&v=4
   tags:
     - metrics
     - monitoring
     - alerting
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/prometheus/prometheus
+
 spec:
   type: service
   lifecycle: experimental
