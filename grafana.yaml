@@ -3,12 +3,14 @@ kind: Component
 metadata:
   name: Grafana
   description: Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored
-  url: https://github.com/grafana/grafana
   image: https://github.com/grafana/grafana/blob/master/docs/logo-horizontal.png?raw=true
   tags:
     - metrics
     - monitoring
     - visualization
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/grafana/grafana
+
 spec:
   type: service
   lifecycle: experimental
