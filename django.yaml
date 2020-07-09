@@ -3,8 +3,9 @@ kind: Component
 metadata:
   name: Django
   description: Django makes it easier to build better Web apps more quickly and with less code
-  url: https://www.djangoproject.com/
   image: https://miro.medium.com/max/2400/1*HVKOLLX7wprRbHTl2IPDcQ.png
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/django/django
   tags:
     - framework
     - python
