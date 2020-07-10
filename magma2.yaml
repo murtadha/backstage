@@ -10,7 +10,6 @@ metadata:
     - telecom
     - orchestration
   annotations:
-    example.com/service-discovery: artistweb
     backstage.io/managed-by-location: github:https://github.com/facebookincubator/magma
 spec:
   type: service
