@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Zabbix
+  description: Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
+  image: https://assets.zabbix.com/dist/images/fd87efa6da9bed3fd8c9cfb442a3d537.svg
+  tags:
+    - monitoring
+    - networking
+    - cloud
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/zabbix/zabbix
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jbraeg@fb.com

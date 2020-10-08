@@ -14,4 +14,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: fb@user.com
+  owner: xjtian@fb.com

@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: iperf
+  description: iperf is a tool for active measurements of the maximum achievable bandwidth on IP (TCP, UDP, SCTP) networks
+  image: https://iperf.fr/images/logo_iperf.png
+  tags:
+    - monitoring
+    - networking
+    - testing
+    - performance
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/esnet/iperf
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jbraeg@fb.com

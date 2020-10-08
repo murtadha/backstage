@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: MaterialUI
+  description: React components for faster and simpler web development. Build your own design system, or start with Material Design.
+  image: https://camo.githubusercontent.com/cf05625198fe7b6ad8a302d1ce16bc99b93ec2ac/68747470733a2f2f6d6174657269616c2d75692e636f6d2f7374617469632f6c6f676f2e737667
+  tags:
+    - frontend
+    - ui
+    - react
+    - web
+    - javascript
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/mui-org/material-ui
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: murtadha@fb.com

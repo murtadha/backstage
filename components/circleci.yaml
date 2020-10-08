@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CircleCI
+  description: CircleCI provides powerful Continuous Integration and Deployment with easy setup and maintenance.
+  image: https://avatars2.githubusercontent.com/u/1231870?s=200&v=4
+  tags:
+    - deployment
+    - integration
+    - automation
+    - ci
+    - cd
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/circleci
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jbraeg@fb.com

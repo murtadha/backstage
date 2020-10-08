@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Keycloak
+  description: Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services.
+  image: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
+  tags:
+    - auth
+    - identity
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/keycloak/keycloak
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jbraeg@fb.com
