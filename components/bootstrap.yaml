@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Bootstrap
+  description: The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+  image: https://camo.githubusercontent.com/bec2c92468d081617cb3145a8f3d8103e268bca400f6169c3a68dc66e05c971e/68747470733a2f2f76352e676574626f6f7473747261702e636f6d2f646f63732f352e302f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67
+  annotations:
+    backstage.io/managed-by-location: github:https://github.com/twbs/bootstrap
+  tags:
+    - framework
+    - ui
+    - web
+    - frontend
+spec:
+  type: service
+  lifecycle: experimental
+  owner: murtadha@fb.com
